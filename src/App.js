@@ -49,6 +49,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        React Calculator
         <Screen input={this.state.calculation} />
         <Buttons>
           <Button onClick={this.handleClick} label="C" value="clear" />
