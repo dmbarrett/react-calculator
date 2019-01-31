@@ -12,6 +12,28 @@
   border-radius: 8px;
 }
 
+#error {
+  font-family: 'VT323', monospace;
+  font-size: 18px;
+  background-color:black;
+  color: crimson;
+  height: 24px;
+  width: 90%;
+  padding: 0 5%;
+  margin: 0;
+}
+.result {
+  font-family: 'VT323', monospace;
+  font-size: 24px;
+  background-color:black;
+  color: greenyellow;
+  height: 24px;
+  width: 90%;
+  padding: 0 5%;
+  margin: 0;
+  text-align: right;
+}
+
 .screen {
   display: flex;
   justify-content: flex-end;
@@ -37,6 +59,7 @@
   align-items: center;
   justify-content: center;
   height: 20%;
+  width: 25%;
   box-sizing: border-box;
   border: 2px solid #DBDBDB;
   background-color: #9F9F9F;
@@ -48,5 +71,13 @@
 
 .button[data-size="2"]{
   height:40%;
+}
+
+.button:hover {
+  background-color: #DBDBDB;
+}
+
+.button:active {
+  background-color: aliceblue;
 }
 
